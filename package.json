@@ -2,7 +2,7 @@
   "name": "salat-an-nabi",
   "displayName": "صلِّ على النبي | Salat An-Nabi",
   "description": "تذكير دوري بالصلاة على النبي محمد ﷺ كصدقة جارية | Periodic reminder to send blessings upon Prophet Muhammad ﷺ",
-  "version": "1.0.0",
+  "version": "0.0.2",
   
     "repository": {
       "type": "git",
