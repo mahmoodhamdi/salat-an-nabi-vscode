@@ -1,0 +1,15 @@
+{
+    "reminders": [
+      "Send blessings upon Prophet Muhammad ﷺ",
+      "O Allah, send Your blessings upon Muhammad",
+      "May Allah's peace and blessings be upon Prophet Muhammad",
+      "O Allah, exalt the mention of Muhammad and the family of Muhammad",
+      "Send your prayers upon the Prophet ﷺ"
+    ],
+    "statusBarText": "$(heart) Salat An-Nabi",
+    "statusBarTooltipEnabled": "Disable reminders",
+    "statusBarTooltipDisabled": "Enable reminders",
+    "enabledMessage": "Salat An-Nabi reminders have been enabled",
+    "disabledMessage": "Salat An-Nabi reminders have been disabled",
+    "buttonText": "Ameen"
+  }

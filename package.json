@@ -1,0 +1,81 @@
+{
+  "name": "salat-an-nabi",
+  "displayName": "صلِّ على النبي | Salat An-Nabi",
+  "description": "تذكير دوري بالصلاة على النبي محمد ﷺ كصدقة جارية | Periodic reminder to send blessings upon Prophet Muhammad ﷺ",
+  "version": "1.0.0",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "salatAnNabi.toggleEnable",
+        "title": "Toggle Salat An-Nabi Reminder | تفعيل/تعطيل تذكير الصلاة على النبي"
+      },
+      {
+        "command": "salatAnNabi.showNow",
+        "title": "Show Salat An-Nabi Reminder Now | عرض تذكير الصلاة على النبي الآن"
+      }
+    ],
+    "configuration": {
+      "title": "صلِّ على النبي | Salat An-Nabi",
+      "properties": {
+        "salatAnNabi.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "تفعيل أو تعطيل التذكير | Enable or disable reminders"
+        },
+        "salatAnNabi.intervalMinutes": {
+          "type": "number",
+          "default": 30,
+          "description": "الفترة الزمنية بين التذكيرات (بالدقائق) | Time interval between reminders (in minutes)"
+        },
+        "salatAnNabi.reminderCount": {
+          "type": "number",
+          "default": 1,
+          "description": "عدد مرات التذكير في كل فترة | Number of reminders per interval"
+        },
+        "salatAnNabi.language": {
+          "type": "string",
+          "enum": ["ar", "en", "fr", "tr", "ur"],
+          "default": "ar",
+          "description": "لغة التذكير | Reminder language"
+        },
+        "salatAnNabi.useCustomMessages": {
+          "type": "boolean",
+          "default": false,
+          "description": "استخدام الرسائل المخصصة | Use custom messages"
+        },
+        "salatAnNabi.customMessages": {
+          "type": "array",
+          "default": [],
+          "description": "رسائل مخصصة للتذكير | Custom reminder messages"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^14.0.0",
+    "@types/vscode": "^1.60.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  } 
+}
