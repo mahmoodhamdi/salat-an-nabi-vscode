@@ -29,12 +29,12 @@ Salat An-Nabi is a Visual Studio Code extension that provides periodic reminders
 ## Installation | التنصيب
 
 1. Open VS Code.
-2. Go to the **Extensions** view (`Ctrl+Shift+P`).
+2. Go to the **Extensions** view Ctrl+Shift+P
 3. Search for **Salat An-Nabi**.
 4. Click **Install**.
 
 **1. افتح VS Code.**  
-**2. انتقل إلى عرض الملحقات (`Ctrl+Shift+P`).**  
+**2. انتقل إلى عرض الملحقات Ctrl+Shift+P**  
 **3. ابحث عن "Salat An-Nabi".**  
 **4. اضغط على "تثبيت".**  
 
@@ -43,11 +43,11 @@ Salat An-Nabi is a Visual Studio Code extension that provides periodic reminders
 ## Usage | كيفية الاستخدام
 
 - The extension runs automatically on startup.
-- You can enable/disable reminders via the command palette (`Ctrl+Shift+P` → **Toggle Salat An-Nabi Reminder**).
+- You can enable/disable reminders via the command palette Ctrl+Shift+P → **Toggle Salat An-Nabi Reminder**.
 - Change settings in **File > Preferences > Settings > Salat An-Nabi**.
 
 **- يعمل الامتداد تلقائيًا عند تشغيل VS Code.**  
-**- يمكنك تفعيل/تعطيل التذكير من قائمة الأوامر (`Ctrl+Shift+P` → **Toggle Salat An-Nabi Reminder**).**  
+**- يمكنك تفعيل/تعطيل التذكير من قائمة الأوامر (Ctrl+Shift+P → **Toggle Salat An-Nabi Reminder**).**  
 **- يمكنك تغيير الإعدادات من **File > Preferences > Settings > Salat An-Nabi**.**  
 
 ---
@@ -56,4 +56,8 @@ Salat An-Nabi is a Visual Studio Code extension that provides periodic reminders
 
 If you'd like to contribute, feel free to fork the repository, create a new branch, and submit a pull request.
 
-**إذا كنت ترغب في المساهمة، يمكنك تفرعة المستودع وإنشاء فرع جديد ثم قيام بإرسال Pull Request.**
+---
+
+## License | الرخصة
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
