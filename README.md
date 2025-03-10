@@ -10,19 +10,19 @@ Salat An-Nabi is a Visual Studio Code extension that provides periodic reminders
 
 ## Features | المميّزات
 
-- ✔ Periodic reminders to send blessings upon the Prophet.
-- ✔ Customizable reminder messages.
-- ✔ Supports multiple languages (Arabic, English, French, Turkish, Urdu).
-- ✔ Option to enable/disable reminders.
-- ✔ Customizable reminder interval.
-- ✔ Status bar integration.
+- Periodic reminders to send blessings upon the Prophet.
+- Customizable reminder messages.
+- Supports multiple languages (Arabic, English, French, Turkish, Urdu).
+- Option to enable/disable reminders.
+- Customizable reminder interval.
+- Status bar integration.
 
-**✔ تذكيرات دورية للصلاة على النبي.**  
-**✔ إمكانية تعديل رسائل التذكير.**  
-**✔ دعم اللغات المختلفة (العربية والإنجليزية والفرنسية والتركية والأردية).**  
-**✔ خيار لتفعيل/تعطيل التذكيرات.**  
-**✔ خيار لتحديد الفترة الزمنية للتذكير.**  
-**✔ دمج مع شريط الحالة.**  
+**تذكيرات دورية للصلاة على النبي.**  
+**إمكانية تعديل رسائل التذكير.**  
+**دعم اللغات المختلفة (العربية والإنجليزية والفرنسية والتركية والأردية).**  
+**خيار لتفعيل/تعطيل التذكيرات.**  
+**خيار لتحديد الفترة الزمنية للتذكير.**  
+**دمج مع شريط الحالة.**  
 
 ---
 
@@ -52,19 +52,17 @@ Salat An-Nabi is a Visual Studio Code extension that provides periodic reminders
 
 ---
 
-<!-- ## Demo | العرض التوضيحي
+## Demo | عرض توضيحي
 
-### 📹 Video Tutorial | فيديو شرح الاستخدام
-
-[![Watch the tutorial](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
-### 📸 Screenshots | لقطات شاشة
+### 📸 Screenshots
 
 ![Screenshot 1](images/screenshot1.png)
+![Screenshot 3](images/screenshot3.png)
 ![Screenshot 2](images/screenshot2.png)
 
+
 ---
- -->
+
 ## Contributing | المشاركة في التطوير
 
 If you'd like to contribute, feel free to fork the repository, create a new branch, and submit a pull request.
