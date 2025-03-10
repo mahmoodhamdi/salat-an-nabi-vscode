@@ -52,6 +52,19 @@ Salat An-Nabi is a Visual Studio Code extension that provides periodic reminders
 
 ---
 
+<!-- ## Demo | العرض التوضيحي
+
+### 📹 Video Tutorial | فيديو شرح الاستخدام
+
+[![Watch the tutorial](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+### 📸 Screenshots | لقطات شاشة
+
+![Screenshot 1](images/screenshot1.png)
+![Screenshot 2](images/screenshot2.png)
+
+---
+ -->
 ## Contributing | المشاركة في التطوير
 
 If you'd like to contribute, feel free to fork the repository, create a new branch, and submit a pull request.
@@ -60,4 +73,4 @@ If you'd like to contribute, feel free to fork the repository, create a new bran
 
 ## License | الرخصة
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the [MIT License](LICENSE).
