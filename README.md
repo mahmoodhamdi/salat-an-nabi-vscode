@@ -1,116 +1,59 @@
-# صلِّ على النبي | Salat An-Nabi
+# Salat An-Nabi | صلِّ على النبي
 
-<div align="center">
-    <img src="icon.png" width="128" height="128" alt="Extension Logo">
-    <p><strong>تذكير دوري بالصلاة على النبي محمد ﷺ كصدقة جارية</strong></p>
-    <p><strong>Periodic reminder to send blessings upon Prophet Muhammad ﷺ</strong></p>
-</div>
+## Overview | نبذة عن الامتداد
 
----
+Salat An-Nabi is a Visual Studio Code extension that provides periodic reminders to send blessings upon Prophet Muhammad ❤️. The extension is customizable and supports multiple languages.
 
-## 🌍 [English](#english-documentation) | [العربية](#arabic-documentation)
+**امتداد Salat An-Nabi هو ملحق لـ VS Code يقوم بتذكيرك دوريًا بالصلاة على النبي محمد ❤️. الامتداد قابل للتعديل ويدعم لغات مختلفة.**
 
 ---
 
-<h2 id="arabic-documentation">📌 نبذة عن الإضافة</h2>
+## Features | المميّزات
 
-إضافة بسيطة لـ Visual Studio Code تقوم بتذكيرك دوريًا بالصلاة على النبي محمد ﷺ كصدقة جارية. الإضافة متعددة اللغات وقابلة للتخصيص بالكامل.
+- ✔ Periodic reminders to send blessings upon the Prophet.
+- ✔ Customizable reminder messages.
+- ✔ Supports multiple languages (Arabic, English, French, Turkish, Urdu).
+- ✔ Option to enable/disable reminders.
+- ✔ Customizable reminder interval.
+- ✔ Status bar integration.
 
-### 🚀 الميزات
-
-- **تذكير تلقائي** بالصلاة على النبي كل فترة معينة
-- **تعدد اللغات** مع دعم اللغة العربية والإنجليزية والفرنسية والتركية والأردية
-- **إمكانية التعديل** على مدة التذكير والرسائل المعروضة
-- **تخصيص كامل** للرسائل بإضافة رسائل خاصة
-- **عرض تذكير فوري** عند الحاجة
-- **زر في شريط الحالة** لتفعيل/تعطيل التذكير بسرعة
-
-### 📦 الإعدادات المتاحة
-
-- `salatAnNabi.enabled`: تفعيل/تعطيل التذكير
-- `salatAnNabi.intervalMinutes`: تحديد مدة التذكير (بالدقائق)
-- `salatAnNabi.reminderCount`: عدد مرات التذكير في كل فترة
-- `salatAnNabi.language`: لغة الرسائل والتذكيرات
-- `salatAnNabi.useCustomMessages`: استخدام الرسائل المخصصة
-- `salatAnNabi.customMessages`: الرسائل المخصصة للتذكير
-
-### 🔧 طريقة الاستخدام
-
-1. **تنصيب الإضافة**:
-
-   ```sh
-   code --install-extension salat-an-nabi-1.0.0.vsix
-   ```
-
-2. **تخصيص الإعدادات**:
-   - اضغط على `Ctrl+,` (أو `Cmd+,` على macOS) لفتح الإعدادات
-   - ابحث عن `صلِّ على النبي` أو `Salat An-Nabi`
-   - قم بتعديل الإعدادات حسب رغبتك
-
-3. **الأوامر المتاحة**:
-   - اضغط على `Ctrl+Shift+P` (أو `Cmd+Shift+P` على macOS) واكتب:
-     - `Salat An-Nabi: Toggle` لتفعيل/تعطيل التذكير
-     - `Salat An-Nabi: Show Now` لعرض تذكير فوري
-
-### 📜 الأجر والثواب
-
-قال رسول الله ﷺ: "من صلى علي صلاة صلى الله عليه بها عشرًا" [رواه مسلم]
+**✔ تذكيرات دورية للصلاة على النبي.**  
+**✔ إمكانية تعديل رسائل التذكير.**  
+**✔ دعم اللغات المختلفة (العربية والإنجليزية والفرنسية والتركية والأردية).**  
+**✔ خيار لتفعيل/تعطيل التذكيرات.**  
+**✔ خيار لتحديد الفترة الزمنية للتذكير.**  
+**✔ دمج مع شريط الحالة.**  
 
 ---
 
-<h2 id="english-documentation">📌 About the Extension</h2>
+## Installation | التنصيب
 
-A simple Visual Studio Code extension that periodically reminds you to send blessings upon Prophet Muhammad ﷺ. The extension is multilingual and fully customizable.
+1. Open VS Code.
+2. Go to the **Extensions** view (`Ctrl+Shift+P`).
+3. Search for **Salat An-Nabi**.
+4. Click **Install**.
 
-### 🚀 Features
-
-- **Automatic reminders** to send prayers at customizable intervals
-- **Multilingual support** with Arabic, English, French, Turkish and Urdu
-- **Fully customizable** interval, reminder count, and messages
-- **Custom messages** for personalized reminders
-- **Instant reminder** whenever needed
-- **Status bar button** for quick toggle
-
-### 📦 Available Settings
-
-- `salatAnNabi.enabled`: Enable/disable reminders
-- `salatAnNabi.intervalMinutes`: Set time interval between reminders (in minutes)
-- `salatAnNabi.reminderCount`: Number of reminders per interval
-- `salatAnNabi.language`: Language for messages and reminders
-- `salatAnNabi.useCustomMessages`: Use custom reminder messages
-- `salatAnNabi.customMessages`: Custom reminder messages
-
-### 🔧 How to Use
-
-1. **Install the extension**:
-
-   ```sh
-   code --install-extension salat-an-nabi-1.0.0.vsix
-   ```
-
-2. **Customize settings**:
-   - Press `Ctrl+,` (or `Cmd+,` on macOS) to open settings
-   - Search for `Salat An-Nabi`
-   - Adjust settings according to your preferences
-
-3. **Available commands**:
-   - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) and type:
-     - `Salat An-Nabi: Toggle` to enable/disable reminders
-     - `Salat An-Nabi: Show Now` to show a reminder immediately
-
-### 📜 Virtues
-
-The Prophet Muhammad ﷺ said: "Whoever sends blessings upon me once, Allah will send blessings upon him tenfold." [Sahih Muslim]
+**1. افتح VS Code.**  
+**2. انتقل إلى عرض الملحقات (`Ctrl+Shift+P`).**  
+**3. ابحث عن "Salat An-Nabi".**  
+**4. اضغط على "تثبيت".**  
 
 ---
 
-## 📄 License
+## Usage | كيفية الاستخدام
 
-MIT
+- The extension runs automatically on startup.
+- You can enable/disable reminders via the command palette (`Ctrl+Shift+P` → **Toggle Salat An-Nabi Reminder**).
+- Change settings in **File > Preferences > Settings > Salat An-Nabi**.
+
+**- يعمل الامتداد تلقائيًا عند تشغيل VS Code.**  
+**- يمكنك تفعيل/تعطيل التذكير من قائمة الأوامر (`Ctrl+Shift+P` → **Toggle Salat An-Nabi Reminder**).**  
+**- يمكنك تغيير الإعدادات من **File > Preferences > Settings > Salat An-Nabi**.**  
 
 ---
 
-<div align="center">
-    <p>Made with ❤️ as Sadaqah Jariyah (ongoing charity)</p>
-</div>
-"# salat-an-nabi-vscode" 
+## Contributing | المشاركة في التطوير
+
+If you'd like to contribute, feel free to fork the repository, create a new branch, and submit a pull request.
+
+**إذا كنت ترغب في المساهمة، يمكنك تفرعة المستودع وإنشاء فرع جديد ثم قيام بإرسال Pull Request.**

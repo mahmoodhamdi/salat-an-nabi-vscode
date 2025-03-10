@@ -1,0 +1,15 @@
+{
+    "reminders": [
+      "Peygamberimize ﷺ salât ve selâm getirin",
+      "Allah'ım! Peygamberimiz Muhammed’e selam, rahmet ve bereket ihsan eyle",
+      "Allah'ım! Muhammed'e ve Muhammed’in âline salât eyle",
+      "Allah'ım! Muhammed’e, onu ananlar kadar salât eyle",
+      "Allah'ım! Sevgili Mustafa’na salât ve selâm eyle"
+    ],
+    "statusBarText": "$(heart) Salât getir",
+    "statusBarTooltipEnabled": "Hatırlatıcıyı Kapat",
+    "statusBarTooltipDisabled": "Hatırlatıcıyı Aç",
+    "enabledMessage": "Salât hatırlatıcısı etkinleştirildi ﷺ",
+    "disabledMessage": "Salât hatırlatıcısı devre dışı bırakıldı ﷺ",
+    "buttonText": "Amin"
+}

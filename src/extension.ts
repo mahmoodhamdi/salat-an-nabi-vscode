@@ -15,7 +15,7 @@ interface LanguageMessages {
 export function activate(context: vscode.ExtensionContext) {
     // Initialize variables
     let config = vscode.workspace.getConfiguration("salatAnNabi");
-    let intervalMinutes = config.get<number>("intervalMinutes", 30);
+    let intervalMinutes = config.get<number>("intervalMinutes", 1);
     let reminderCount = config.get<number>("reminderCount", 1);
     let language = config.get<string>("language", "ar");
     let customMessages = config.get<string[]>("customMessages", []);

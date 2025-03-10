@@ -1,0 +1,15 @@
+{
+    "reminders": [
+      "Envoyez des bénédictions sur le Prophète ﷺ",
+      "Ô Allah, envoie paix, bénédictions et miséricorde sur notre Prophète Muhammad",
+      "Ô Allah, bénis Muhammad et la famille de Muhammad",
+      "Ô Allah, bénis Muhammad autant de fois qu'il a été mentionné",
+      "Ô Allah, envoie paix et bénédictions sur Ton bien-aimé Mustafa"
+    ],
+    "statusBarText": "$(heart) Envoyer des bénédictions",
+    "statusBarTooltipEnabled": "Désactiver le rappel",
+    "statusBarTooltipDisabled": "Activer le rappel",
+    "enabledMessage": "Rappel de prière sur le Prophète activé ﷺ",
+    "disabledMessage": "Rappel de prière sur le Prophète désactivé ﷺ",
+    "buttonText": "Amine"
+}
