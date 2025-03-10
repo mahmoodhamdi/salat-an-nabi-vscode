@@ -3,10 +3,16 @@
   "displayName": "صلِّ على النبي | Salat An-Nabi",
   "description": "تذكير دوري بالصلاة على النبي محمد ﷺ كصدقة جارية | Periodic reminder to send blessings upon Prophet Muhammad ﷺ",
   "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mahmoodhamdi/salat-an-nabi-vscode"
-  },
+  
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mahmoodhamdi/salat-an-nabi-vscode.git"
+    },
+    "bugs": {
+      "url": "https://github.com/mahmoodhamdi/salat-an-nabi-vscode/issues"
+    },
+    "homepage": "https://mahmoodhamdi.github.io/salat-an-nabi-vscode/"
+   , 
   "publisher": "Mahmoud-Elashwah",
   "engines": {
     "vscode": "^1.60.0"
