@@ -2,17 +2,15 @@
   "name": "salat-an-nabi",
   "displayName": "صلِّ على النبي | Salat An-Nabi",
   "description": "تذكير دوري بالصلاة على النبي محمد ﷺ كصدقة جارية | Periodic reminder to send blessings upon Prophet Muhammad ﷺ",
-  "version": "0.0.2",
-  
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/mahmoodhamdi/salat-an-nabi-vscode.git"
-    },
-    "bugs": {
-      "url": "https://github.com/mahmoodhamdi/salat-an-nabi-vscode/issues"
-    },
-    "homepage": "https://mahmoodhamdi.github.io/salat-an-nabi-vscode/"
-   , 
+  "version": "0.0.4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahmoodhamdi/salat-an-nabi-vscode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mahmoodhamdi/salat-an-nabi-vscode/issues"
+  },
+  "homepage": "https://mahmoodhamdi.github.io/salat-an-nabi-vscode/",
   "publisher": "Mahmoud-Elashwah",
   "engines": {
     "vscode": "^1.60.0"
@@ -56,7 +54,13 @@
         },
         "salatAnNabi.language": {
           "type": "string",
-          "enum": ["ar", "en", "fr", "tr", "ur"],
+          "enum": [
+            "ar",
+            "en",
+            "fr",
+            "tr",
+            "ur"
+          ],
           "default": "ar",
           "description": "لغة التذكير | Reminder language"
         },
@@ -88,5 +92,5 @@
     "eslint": "^8.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^4.9.5"
-  } 
+  }
 }
