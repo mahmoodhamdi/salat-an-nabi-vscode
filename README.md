@@ -1,11 +1,20 @@
+<!--
+SEO Keywords / الكلمات المفتاحية للبحث:
+Islamic, Muslim, Azkar, Dhikr, Quran, Prayer, Salawat, Dua, Reminder, Extension, VS Code,
+أذكار, أذكار المسلم, دعاء, قرآن, صلاة, تسبيح, استغفار, إسلام, مسلم, تذكير, صلاة على النبي,
+Zikir, Namaz, Doa, Wirid, Salat, Tasbih, Istighfar, Adhkar, Thikr,
+اذکار, ذکر, نماز, دعا, قرآن کریم, تسبیح, استغفار,
+Muslim Developer, Islamic Productivity, Coding with Azkar
+-->
+
 <div align="center">
 
-<img src="images/logo.png" alt="Salat An-Nabi Logo" width="128" height="128">
+<img src="images/logo.png" alt="Salat An-Nabi Logo - Islamic Azkar Reminder for VS Code" width="128" height="128">
 
-# صلِّ على النبي | Salat An-Nabi & Azkar
+# صلِّ على النبي | Salat An-Nabi - Islamic Azkar & Dhikr Extension
 
-### تذكير دوري بالصلاة على النبي محمد ﷺ والأذكار الإسلامية
-### Periodic reminders to send blessings upon Prophet Muhammad ﷺ
+### أذكار المسلم للمبرمجين | تذكير بالصلاة على النبي والأذكار الإسلامية
+### Islamic Reminders for Muslim Developers | Azkar, Dhikr, Salawat & Dua
 
 [![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/Mahmoud-Elashwah.salat-an-nabi?style=for-the-badge&logo=visual-studio-code&logoColor=white&label=VS%20Code&color=0078d4)](https://marketplace.visualstudio.com/items?itemName=Mahmoud-Elashwah.salat-an-nabi)
 [![Downloads](https://img.shields.io/visual-studio-marketplace/d/Mahmoud-Elashwah.salat-an-nabi?style=for-the-badge&logo=microsoft&logoColor=white&color=green)](https://marketplace.visualstudio.com/items?itemName=Mahmoud-Elashwah.salat-an-nabi)
@@ -25,6 +34,7 @@
 ## 📋 Table of Contents | فهرس المحتويات
 
 - [Features | المميزات](#-features--المميزات)
+- [Why Use This? | لماذا تستخدمها؟](#-why-use-this-extension--لماذا-تستخدم-هذه-الإضافة)
 - [Quick Start | البداية السريعة](#-quick-start--البداية-السريعة)
 - [Installation | التثبيت](#-installation--التثبيت)
 - [Commands | الأوامر](#-commands--الأوامر)
@@ -36,6 +46,7 @@
 - [Contributing | المساهمة](#-contributing--المساهمة)
 - [Support | الدعم](#-support--الدعم)
 - [License | الرخصة](#-license--الرخصة)
+- [Keywords | كلمات مفتاحية](#-keywords--الكلمات-المفتاحية)
 
 ---
 
@@ -67,6 +78,41 @@
 - 📊 **دمج مع شريط الحالة** - تفعيل/تعطيل سريع
 - ✏️ **رسائل مخصصة** - أضف تذكيراتك الخاصة
 - ⏱️ **توقيت مرن** - من دقيقة واحدة إلى 24 ساعة
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🤲 Why Use This Extension? | لماذا تستخدم هذه الإضافة؟
+
+<table>
+<tr>
+<td width="50%">
+
+### 🇬🇧 For Muslim Developers
+
+As a Muslim developer, you spend hours coding. This extension helps you:
+
+- **Stay connected to Allah** - Regular Dhikr (ذكر) and Azkar reminders
+- **Earn rewards while coding** - Send Salawat (صلوات) on the Prophet ﷺ
+- **Maintain spiritual focus** - Balance productivity with Ibadah (عبادة)
+- **Build good habits** - Consistent Islamic reminders throughout your day
+- **Customize your experience** - Add your favorite Duas and Adhkar
+
+</td>
+<td width="50%">
+
+### 🇸🇦 للمبرمجين المسلمين
+
+كمطور مسلم، تقضي ساعات في البرمجة. هذه الإضافة تساعدك على:
+
+- **البقاء متصلاً بالله** - تذكيرات منتظمة بالذكر والأذكار
+- **كسب الأجر أثناء البرمجة** - الصلاة على النبي ﷺ
+- **الحفاظ على التركيز الروحي** - التوازن بين الإنتاجية والعبادة
+- **بناء عادات حسنة** - تذكيرات إسلامية مستمرة طوال اليوم
+- **تخصيص تجربتك** - أضف أدعيتك وأذكارك المفضلة
 
 </td>
 </tr>
@@ -171,7 +217,7 @@ Access settings via `File > Preferences > Settings > Salat An-Nabi` or use the c
 | `salatAnNabi.enabled` | boolean | `true` | Enable/disable reminders | تفعيل/تعطيل التذكيرات |
 | `salatAnNabi.intervalMinutes` | number | `30` | Interval between reminders (1-1440 min) | الفترة بين التذكيرات (1-1440 دقيقة) |
 | `salatAnNabi.reminderCount` | number | `1` | Number of reminders per interval | عدد التذكيرات في كل فترة |
-| `salatAnNabi.language` | string | `"ar"` | Reminder language (ar/en/fr/tr/ur) | لغة التذكيرات |
+| `salatAnNabi.language` | string | `"ar"` | Language (22 languages available) | لغة التذكيرات (22 لغة) |
 | `salatAnNabi.notificationDuration` | number | `5` | Notification display duration (1-60 sec) | مدة عرض الإشعار (1-60 ثانية) |
 | `salatAnNabi.useCustomMessages` | boolean | `false` | Use custom messages | استخدام رسائل مخصصة |
 | `salatAnNabi.customMessages` | array | `[]` | Your custom reminder messages | رسائلك المخصصة |
@@ -208,15 +254,37 @@ Access settings via `File > Preferences > Settings > Salat An-Nabi` or use the c
 
 ---
 
-## 🌍 Supported Languages | اللغات المدعومة
+## 🌍 Supported Languages | اللغات المدعومة (22 Languages)
 
-| Flag | Language | اللغة | Code |
-|:----:|----------|-------|:----:|
-| 🇸🇦 | Arabic | العربية | `ar` |
-| 🇬🇧 | English | الإنجليزية | `en` |
-| 🇫🇷 | French | الفرنسية | `fr` |
-| 🇹🇷 | Turkish | التركية | `tr` |
-| 🇵🇰 | Urdu | الأردية | `ur` |
+<details>
+<summary><b>Click to see all 22 supported languages | اضغط لعرض الـ 22 لغة مدعومة</b></summary>
+
+| Flag | Language | اللغة | Code | Muslims |
+|:----:|----------|-------|:----:|:-------:|
+| 🇸🇦 | Arabic | العربية | `ar` | 400M+ |
+| 🇬🇧 | English | الإنجليزية | `en` | Global |
+| 🇮🇩 | Indonesian | الإندونيسية | `id` | 230M+ |
+| 🇧🇩 | Bengali | البنغالية | `bn` | 150M+ |
+| 🇮🇳 | Hindi | الهندية | `hi` | 200M+ |
+| 🇮🇷 | Persian | الفارسية | `fa` | 80M+ |
+| 🇲🇾 | Malay | الماليزية | `ms` | 20M+ |
+| 🇵🇰 | Punjabi | البنجابية | `pa` | 100M+ |
+| 🇳🇬 | Hausa | الهوسا | `ha` | 80M+ |
+| 🇦🇫 | Pashto | البشتو | `ps` | 50M+ |
+| 🇰🇪 | Swahili | السواحيلية | `sw` | 15M+ |
+| 🇮🇶 | Kurdish | الكردية | `ku` | 30M+ |
+| 🇺🇿 | Uzbek | الأوزبكية | `uz` | 30M+ |
+| 🇦🇿 | Azerbaijani | الأذربيجانية | `az` | 10M+ |
+| 🇸🇴 | Somali | الصومالية | `so` | 20M+ |
+| 🇧🇦 | Bosnian | البوسنية | `bs` | 3M+ |
+| 🇦🇱 | Albanian | الألبانية | `sq` | 5M+ |
+| 🇫🇷 | French | الفرنسية | `fr` | 50M+ |
+| 🇹🇷 | Turkish | التركية | `tr` | 80M+ |
+| 🇵🇰 | Urdu | الأردية | `ur` | 200M+ |
+| 🇩🇪 | German | الألمانية | `de` | Europe |
+| 🇪🇸 | Spanish | الإسبانية | `es` | Americas |
+
+</details>
 
 ---
 
@@ -355,6 +423,27 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
+## 🔖 Keywords | الكلمات المفتاحية
+
+<details>
+<summary><b>Search Terms | مصطلحات البحث</b></summary>
+
+**English:** Islamic, Muslim, Azkar, Adhkar, Dhikr, Thikr, Quran, Prayer, Salawat, Salat, Dua, Reminder, Tasbih, Istighfar, Islamic Extension, Muslim Developer, Productivity, VS Code, Visual Studio Code
+
+**العربية:** إسلام، مسلم، أذكار، أذكار المسلم، ذكر، قرآن، صلاة، صلوات، دعاء، تذكير، تسبيح، استغفار، صلاة على النبي، إضافة إسلامية، مبرمج مسلم
+
+**Türkçe:** Zikir, Namaz, Dua, Salat, Tesbih, İstiğfar, İslami, Müslüman
+
+**اردو:** اذکار، ذکر، نماز، دعا، تسبیح، استغفار، اسلامی، مسلمان
+
+**Français:** Islamique, Musulman, Prière, Rappel, Coran
+
+**Bahasa:** Zikir, Doa, Wirid, Salat, Tasbih, Istighfar, Islam, Muslim
+
+</details>
+
+---
+
 <div align="center">
 
 **Made with ❤️ for the Muslim Developer Community**
@@ -364,5 +453,7 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 **اللهم صل وسلم وبارك على سيدنا محمد وعلى آله وصحبه أجمعين**
+
+**Allahumma salli wa sallim wa barik 'ala Sayyidina Muhammad ﷺ**
 
 </div>
