@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run compile:*)",
+      "Bash(npm run lint)",
+      "Bash(npm run test:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat: Add improvements, CI/CD, and code cleanup\n\n- Add openSettings command to quickly access extension settings\n- Remove unused buttonText field from all language files\n- Add GitHub Actions CI/CD workflow for automated testing\n- Add .editorconfig and .prettierrc for code consistency\n- Add comprehensive test suite with unit and integration tests\n- Fix memory leak by properly tracking and clearing timeouts\n- Add CLAUDE.md documentation for AI assistance\n- Update IMPROVEMENTS.md to track completed items\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
