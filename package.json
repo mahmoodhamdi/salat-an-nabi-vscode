@@ -32,6 +32,10 @@
       {
         "command": "salatAnNabi.showNow",
         "title": "Show Salat An-Nabi Reminder Now | عرض تذكير الصلاة على النبي الآن"
+      },
+      {
+        "command": "salatAnNabi.openSettings",
+        "title": "Open Salat An-Nabi Settings | فتح إعدادات صلِّ على النبي"
       }
     ],
     "configuration": {
@@ -44,7 +48,9 @@
         },
         "salatAnNabi.intervalMinutes": {
           "type": "number",
-          "default": 1,
+          "default": 30,
+          "minimum": 1,
+          "maximum": 1440,
           "description": "الفترة الزمنية بين التذكيرات (بالدقائق) | Time interval between reminders (in minutes)"
         },
         "salatAnNabi.reminderCount": {
@@ -73,6 +79,13 @@
           "type": "array",
           "default": [],
           "description": "رسائل مخصصة للتذكير | Custom reminder messages"
+        },
+        "salatAnNabi.notificationDuration": {
+          "type": "number",
+          "default": 5,
+          "minimum": 1,
+          "maximum": 60,
+          "description": "مدة عرض الإشعار (بالثواني) | Notification display duration (in seconds)"
         }
       }
     }
@@ -81,7 +94,9 @@
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "lint": "eslint . --ext .ts,.tsx"
+    "lint": "eslint .",
+    "test": "vscode-test",
+    "pretest": "npm run compile"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.10",
@@ -89,7 +104,10 @@
     "@types/vscode": "^1.60.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
     "eslint": "^8.0.0",
+    "mocha": "^10.2.0",
     "ts-node": "^10.9.2",
     "typescript": "^4.9.5"
   }

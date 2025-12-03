@@ -56,6 +56,5 @@
   "statusBarTooltipEnabled": "Disable Reminder",
   "statusBarTooltipDisabled": "Enable Reminder",
   "enabledMessage": "Reminder to send blessings upon the Prophet ﷺ has been enabled",
-  "disabledMessage": "Reminder to send blessings upon the Prophet ﷺ has been disabled",
-  "buttonText": "Amen"
+  "disabledMessage": "Reminder to send blessings upon the Prophet ﷺ has been disabled"
 }
