@@ -56,7 +56,7 @@ suite('Extension Test Suite', () => {
         });
 
         test('Supported languages should be valid', () => {
-            const supportedLanguages = ['ar', 'en', 'fr', 'tr', 'ur'];
+            const supportedLanguages = ['ar', 'en', 'fr', 'tr', 'ur', 'id', 'bn', 'hi', 'fa', 'ms', 'pa', 'ha', 'ps', 'sw', 'ku', 'uz', 'az', 'so', 'bs', 'sq', 'de', 'es'];
             const config = vscode.workspace.getConfiguration('salatAnNabi');
             const language = config.get<string>('language', 'ar');
 
@@ -67,7 +67,7 @@ suite('Extension Test Suite', () => {
     // Language Files Tests
     suite('Language Files Tests', () => {
         const languagesDir = path.join(__dirname, '..', '..', 'languages');
-        const supportedLanguages = ['ar', 'en', 'fr', 'tr', 'ur'];
+        const supportedLanguages = ['ar', 'en', 'fr', 'tr', 'ur', 'id', 'bn', 'hi', 'fa', 'ms', 'pa', 'ha', 'ps', 'sw', 'ku', 'uz', 'az', 'so', 'bs', 'sq', 'de', 'es'];
 
         for (const lang of supportedLanguages) {
             test(`Language file ${lang}.json should exist`, () => {
