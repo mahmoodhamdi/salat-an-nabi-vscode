@@ -2,7 +2,7 @@
   "name": "salat-an-nabi",
   "displayName": "صلِّ على النبي | Salat An-Nabi & Azkar",
   "description": "تذكير دوري بالصلاة على النبي محمد ﷺ كصدقة جارية | Periodic reminder to send blessings upon Prophet Muhammad ﷺ",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/mahmoodhamdi/salat-an-nabi-vscode.git"
